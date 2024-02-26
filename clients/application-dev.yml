@@ -1,8 +1,6 @@
 server:
   port: 8086
 spring:
-  application:
-    name: CLIENT-SERVICE
   jpa:
     hibernate:
       ddl-auto: update
