@@ -3,7 +3,7 @@ spring:
     name: clients
   config:
     activate:
-      on-profile: dev
+      on-profile: default
     import: optional:configserver:http://localhost:8888
   cloud:
     config:
